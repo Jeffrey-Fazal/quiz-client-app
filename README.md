@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Quizz App (frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The client is to be used with the [Ruby on Rails Backend](https://github.com/Jeffrey-Fazal/quizz-server-app)
 
-## Available Scripts
+Welcome to the Quizz App! This is a full-stack web application that allows users to take quizzes and see their scores.
+Technology Stack
 
-In the project directory, you can run:
+The Quizz App is built using the following technology stack:
 
-### `npm start`
+    Ruby on Rails API: The backend of the application is built using Ruby on Rails, a popular web application framework for building APIs.
+    React: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
+    JWT: The application uses JSON Web Tokens (JWT) for user authentication.
+    SCSS: The application uses SCSS for styling.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Quizz App has the following features:
 
-### `npm test`
+    Quizz: Users can take quizzes and see their scores.
+    User authentication: Users can log in and sign up to access their quizz results.
+    Responsive design: The application is designed to look good on different devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Contributing
 
-### `npm run build`
+This project was made as a collaboration between Jeffrey (https://github.com/Jeffrey-Fazal) and Bree (https://github.com/bakewa). If you're interested in contributing to the Quizz App, we'd love to have your help! Please feel free to submit a pull request with any changes or improvements you'd like to make.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This Quizz App is currently in development and is subject to Australian copyright law. No license has been specified at this time.

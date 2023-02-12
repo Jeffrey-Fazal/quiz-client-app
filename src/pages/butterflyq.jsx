@@ -1,14 +1,15 @@
 import NavBar from "../common/NavBar";
 import NavBarFooter from "../common/NavBarFooter";
 
-const Home = () => {
+const ButterFlyQuizz = () => {
     return (
         <div className="outline">
             <NavBar />
-            <h1>Home</h1>
+            <h1>Butterfly Quiz</h1>
+            <p>Who doesn't like the most beautiful insect that literally transforms itself during its life.</p>
             <NavBarFooter />
         </div>
     )
 }
 
-export default Home;
+export default ButterFlyQuizz;

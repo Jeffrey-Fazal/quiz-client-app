@@ -1,14 +1,15 @@
 import NavBar from "../common/NavBar";
 import NavBarFooter from "../common/NavBarFooter";
 
-const Home = () => {
+const FAQ = () => {
     return (
         <div className="outline">
             <NavBar />
-            <h1>Home</h1>
+            <h1>FAQ</h1>
+            <p>What would you like to know</p>
             <NavBarFooter />
         </div>
     )
 }
 
-export default Home;
+export default FAQ;
