@@ -5,13 +5,16 @@ import axios from "axios";
 
 const QuizzQuestions = () => {
   const [questions, setQuestions] = useState([]);
-//formating this
   useEffect(() => {
     axios
       .get("http://localhost:3000/questions")
-      .then(res => setQuestions(res.data))
+      .then(res => {
+        console.log(res.data);
+        setQuestions(res.data);
+      })
       .catch(error => console.error(error));
   }, []);
+  
 
   return (
     <table>
