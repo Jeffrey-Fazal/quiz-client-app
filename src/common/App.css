@@ -6,7 +6,7 @@ div {
   font-size: 17px;
   margin: 0 auto;
   /* display: flex; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* width: 100%;
   max-width: 1024px;
   margin: 0 auto;
@@ -15,13 +15,24 @@ div {
   float: right; */
 }
 
-/* th {
-  color: blue;
+/* td {
+  text-align: center;
 } */
 
-/* td {
-  color: coral;
-} */
+.background {
+  text-align: center;
+  background-color: aliceblue;
+ 
+}
+
+a { 
+  background-color: rgb(245, 230, 174);
+}
+
+input { 
+  margin: auto;
+  display: block;
+}
 
 button {
   padding: 10px 20px;
@@ -33,10 +44,7 @@ button {
 }
 
 
-
-
-
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -51,11 +59,4 @@ button {
   color: black;
 }
 
-.App-link {
-  color: green;
-} */
-/* 
-.outline {
-  border: 1px solid red;
-  outline: 3px solid red;
-} */
+

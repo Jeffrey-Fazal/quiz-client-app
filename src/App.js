@@ -1,6 +1,6 @@
 // Default FB add (scheduled to delete)
 import logo from './logo.svg';
-import './components/App.css';
+import './App.css';
 
 function App() {
   return (
