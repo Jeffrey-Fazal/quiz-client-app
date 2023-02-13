@@ -1,11 +1,11 @@
-import NavBar from "../common/NavBar";
-import NavBarFooter from "../common/NavBarFooter";
+// import NavBar from "../common/NavBar";
+// import NavBarFooter from "../common/NavBarFooter";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const QuizzQuestions = () => {
   const [questions, setQuestions] = useState([]);
-
+//formating this
   useEffect(() => {
     axios
       .get("http://localhost:3000/questions")
@@ -37,6 +37,7 @@ const QuizzQuestions = () => {
           </tr>
         ))}
       </tbody>
+      <button>Submit</button>
     </table>
   );
 };
