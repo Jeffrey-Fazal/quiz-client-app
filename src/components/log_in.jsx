@@ -1,22 +1,21 @@
 import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 
-function Login() {
-  const [email, setEmail] = useState("");
+const Login = () => {
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
-  const handleSubmit = async event => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-
     try {
-      const response = await axios.post("http://localhost:3000/login", {
-        user: {
-          email: email,
-          password: password
-        }
+      const response = await axios.post("http://localhost:3000/auth/login", {
+        username,
+        password,
       });
-
-      console.log(response.data);
+      localStorage.setItem("token", response.data.token);
+      navigate('/');
     } catch (error) {
       console.error(error);
     }
@@ -24,25 +23,21 @@ function Login() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
-        <label>email</label>
-        <input
-          type="email"
-          value={email}
-          onChange={e => setEmail(e.target.value)}
-        />
-      </div>
-      <div>
-        <label>password</label>
-        <input
-          type="password"
-          value={password}
-          onChange={e => setPassword(e.target.value)}
-        />
-      </div>
+      <input
+        type="text"
+        placeholder="Username"
+        value={username}
+        onChange={(event) => setUsername(event.target.value)}
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        value={password}
+        onChange={(event) => setPassword(event.target.value)}
+      />
       <button type="submit">Login</button>
     </form>
   );
-}
+};
 
 export default Login;
