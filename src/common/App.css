@@ -43,8 +43,14 @@ button {
   cursor: pointer;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.App {
+
+
+/* .App {
   text-align: center;
 }
 
