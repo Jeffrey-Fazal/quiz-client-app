@@ -2,7 +2,7 @@
 // import NavBarFooter from "../common/NavBarFooter";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-
+import { setSelectionRange } from "@testing-library/user-event/dist/utils";
 
 // Jeff IT WORKS!!
 
@@ -84,14 +84,13 @@ const QuizzQuestions = () => {
                   </div>
                 )}
                 </td>
-
-                {/* <td>{questions[currentQuestionIndex].correct_answer}</td> */}
         </tr>
         )}
       </tbody>
     </table>
     </div>
-    <button onClick={() => setCurrentQuestionIndex((currentQuestionIndex + 1)  % questions.length)}>
+
+    <button onClick={() => setCurrentQuestionIndex(currentQuestionIndex + 1)}>
       Next Question     
       </button>
       </>
@@ -100,4 +99,3 @@ const QuizzQuestions = () => {
 
 
 export default QuizzQuestions;
-

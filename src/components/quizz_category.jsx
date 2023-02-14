@@ -5,11 +5,11 @@ import '../common/App.css';
 const QuizzCategory = (props) => {
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [score, setScore] = useState(0);
+  const [score, setScore] = useState(0); //
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/category/${props.endpoint}`)
+      .get(`http://localhost:3000/category/${props.endpoint}`) //
       .then(res => {
         console.log(res.data);
         setQuestions(res.data);
@@ -30,6 +30,7 @@ const QuizzCategory = (props) => {
         <div>Your final score is {score}</div>
       ) : (
         <>
+            <h2>Question {currentQuestionIndex + 1} of {questions.length}</h2>
         <table className="center">
   <thead>
     <tr>
@@ -60,15 +61,16 @@ const QuizzCategory = (props) => {
           </button>
         </td>
         <td>
+                   {/* Jeffs  */}
           <button onClick={() => handleAnswer(questions[currentQuestionIndex].option4)}>
             {questions[currentQuestionIndex].option4}
           </button>
+          
         </td>
       </tr>
     )}
   </tbody>
 </table>
-
         </>
       )}
     </>
@@ -76,3 +78,14 @@ const QuizzCategory = (props) => {
 };
 
 export default QuizzCategory;
+
+// brees, pls ignore for now
+
+// <button onClick={() => {
+//   handleAnswer(questions[currentQuestionIndex].option4);
+//   if (currentQuestionIndex < questions.length - 1) {
+//     setCurrentQuestionIndex(currentQuestionIndex + 1);
+//   }
+// }}>
+//   {questions[currentQuestionIndex].option4}
+// </button>
