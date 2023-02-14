@@ -1,6 +1,6 @@
 import NavBar from "../common/NavBar";
 import NavBarFooter from "../common/NavBarFooter";
-import QuizzCategory from "../components/quizz_category";
+import QuizzMaster from "../components/quiz_master"
 
 const ButterFlyQuizz = () => {
     return (
@@ -9,7 +9,7 @@ const ButterFlyQuizz = () => {
             <h1>Butterfly Quiz</h1>
             <p>Who doesn't like the most beautiful insect that literally transforms itself during its life.</p>
             <hr />
-            <QuizzCategory endpoint="butterflies"/>
+            <QuizzMaster endpoint="butterflies" />
             <NavBarFooter />
         </div>
     )
