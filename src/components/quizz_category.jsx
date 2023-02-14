@@ -71,6 +71,9 @@ const QuizzCategory = (props) => {
     )}
   </tbody>
 </table>
+  <button onClick={() => setCurrentQuestionIndex(currentQuestionIndex + 1)}>
+      Next Question     
+      </button>
         </>
       )}
     </>
