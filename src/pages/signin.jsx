@@ -1,3 +1,4 @@
+// This is the sign in page
 import NavBar from "../common/NavBar";
 import NavBarFooter from "../common/NavBarFooter";
 import React from "react";
@@ -8,9 +9,11 @@ function LoginPage() {
   return (
     <div>
         <NavBar />
-      <h1>Sign Up</h1>
+        {/* Sign up component is only a form, hence h2 */}
+        <h2>Sign Up</h2>
         <SignUp />
-        <h1>Log in</h1>
+        {/* Login form header */}
+        <h2>Log in</h2>
         <Login />
         <NavBarFooter />
     </div>

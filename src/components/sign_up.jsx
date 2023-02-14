@@ -19,8 +19,10 @@ function SignUp() {
       });
 
       console.log(response.data);
+      // Need to add action upon signup
     } catch (error) {
       console.error(error);
+      // Give feedback if there is a problem, server down or something?
     }
   };
 

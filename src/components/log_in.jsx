@@ -1,3 +1,4 @@
+// login component 
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
@@ -16,8 +17,10 @@ const Login = () => {
       });
       localStorage.setItem("token", response.data.token);
       navigate('/');
+      // Go to homepage upon sign in, maybe change to a profile page?
     } catch (error) {
       console.error(error);
+      // Feedback if there is an issue with sign in
     }
   };
 
