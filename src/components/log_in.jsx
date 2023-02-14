@@ -12,14 +12,15 @@ const Login = () => {
     event.preventDefault();
     try {
       const response = await axios.post("http://localhost:3000/auth/login", {
-        username,
+        email:username,
         password,
       });
+      console.log('logged in')
       localStorage.setItem("token", response.data.token);
-      navigate('/');
+      navigate('/profile');
       // Go to homepage upon sign in, maybe change to a profile page?
     } catch (error) {
-      console.error(error);
+      console.error('error:' + error);
       // Feedback if there is an issue with sign in
     }
   };
@@ -28,7 +29,7 @@ const Login = () => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Username"
+        placeholder="email"
         value={username}
         onChange={(event) => setUsername(event.target.value)}
       />

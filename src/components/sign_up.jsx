@@ -32,6 +32,7 @@ function SignUp() {
       <label>email</label>
         <input
           type="email"
+          placeholder="email"
           value={email}
           onChange={e => setEmail(e.target.value)}
         />
@@ -40,6 +41,7 @@ function SignUp() {
       <label>password</label>
         <input
           type="password"
+          placeholder="password"
           value={password}
           onChange={e => setPassword(e.target.value)}
         />
@@ -48,6 +50,7 @@ function SignUp() {
       <label>confirm password</label>
         <input
           type="password"
+          placeholder="password again :)"
           value={passwordConfirmation}
           onChange={e => setPasswordConfirmation(e.target.value)}
         />

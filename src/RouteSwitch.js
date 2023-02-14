@@ -11,6 +11,7 @@ import MusicQuiz from "./pages/musicq";
 import Privacy from "./pages/privacy";
 import Terms from "./pages/terms";
 import LoginPage from "./pages/signin";
+import Profile from "./pages/profile";
 
 const RouteSwitch = () => {
   return (
@@ -27,6 +28,7 @@ const RouteSwitch = () => {
         <Route path="/musicq" element={<MusicQuiz/>} />
         <Route path="/privacy" element={<Privacy/>} />
         <Route path="/terms" element={<Terms/>} />
+        <Route path="/profile" element={<Profile />}/>
       </Routes>
     </BrowserRouter>
   );
