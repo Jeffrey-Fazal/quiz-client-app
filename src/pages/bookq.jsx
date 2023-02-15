@@ -1,7 +1,7 @@
 import NavBar from "../common/NavBar";
 import NavBarFooter from "../common/NavBarFooter";
-import QuizzQuestions from "../components/quizz_module";
-// import "../common/Water.css"
+import QuizzMaster from "../components/quiz_master";
+
 
 const BookQuiz = () => {
     return (
@@ -9,7 +9,7 @@ const BookQuiz = () => {
             <NavBar />
             <h1>Book Quiz</h1>
             <h4>Show off your inner nerd and knowledge of books</h4>
-            <QuizzQuestions endpoint="books"/>
+            <QuizzMaster endpoint="books" />
             <NavBarFooter />
         </div>
     )

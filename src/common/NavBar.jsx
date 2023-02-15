@@ -16,7 +16,7 @@ const NavBar = () => {
                 <a href="/bookq"> Book Quizz</a> |
                 <a href="/butterflyq"> Butterfly Quizz</a> |
                 <a href="/musicq"> Music Quizz</a> |
-                <a href="/login"> SignUp/Login</a>
+                <a href="/login">The Secret</a>
         <hr />
         </nav>
     )

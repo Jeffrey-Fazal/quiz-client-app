@@ -1,6 +1,6 @@
 import NavBar from "../common/NavBar";
 import NavBarFooter from "../common/NavBarFooter";
-import QuizzCategory from "../components/quizz_category";
+import QuizzMaster from "../components/quiz_master"
 
 const MusicQuiz = () => {
     return (
@@ -9,7 +9,8 @@ const MusicQuiz = () => {
             <h1>Music Quiz</h1>
             <p>Did you know that 87.64% of the world listen to music? <br />
             Show us what you got!</p>
-            <QuizzCategory endpoint="music"/>
+            <p>Daroll component</p>
+            <QuizzMaster endpoint="music" />
             <NavBarFooter />
         </div>
     )
