@@ -1,8 +1,8 @@
-import './App.css';
+import './Water.css';
 
 const NavBarFooter = () => {
     return (
-        <div>
+        <nav>
         
             <hr />
             <div>
@@ -19,7 +19,7 @@ const NavBarFooter = () => {
                 <a href="https://github.com/Jeffrey-Fazal/quizz-server-app">Back End</a>
             </div>
            
-        </div>
+        </nav>
     )
 }
 

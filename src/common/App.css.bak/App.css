@@ -1,0 +1,121 @@
+ /* * {
+    box-sizing:border-box
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .active {
+    border: 2px solid blue;
+    transform: scale(1.3);
+    transition: all 300ms;
+  }
+  
+  .Home {
+    display: flex;
+    flex-wrap: column;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+  }
+  
+  .slideshow {
+    position: relative;
+  }
+  
+  .mainImg {
+    transition: all 500ms;
+  }
+  
+  .actions {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actions button {
+    background: #0000003d;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 10;
+    margin: 5px;
+    border-radius: 15px;
+    padding-top: 5px;
+  }
+  
+  .actions button:active {
+    background: #000000a2;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    padding-top: 5px;
+  } */
+  /* everything above this is from a 3 min tutorial ^^ */
+   
+  div {
+    text-align: center;
+    padding: 12px;
+    font-size: 17px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: block;   */
+    /* width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    display: inline-block;
+    float: right; */
+  }
+  
+  .center {
+    text-align: center;
+    background-color: aliceblue;
+  }
+  
+  /* .middle {
+    text-align: center;
+  } */
+  /* tr {
+    text-align: center;
+  } */
+  
+  a { 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav  {
+    background-color: #F6F8C2;
+    /* width: 33.33%; */
+    /* overflow: auto; */
+  }
+  
+  input { 
+    margin: auto;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .right-answer {
+    color: #4CAF50;
+  }
+  
+  .wrong-answer {
+    color: red;
+  }
+  
+  

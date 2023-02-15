@@ -8,7 +8,7 @@ const ButterFlyQuizz = () => {
             <NavBar />
             <h1>Butterfly Quiz</h1>
             <p>Who doesn't like the most beautiful insect that literally transforms itself during its life.</p>
-            <hr />
+            
             <QuizzCategory endpoint="butterflies"/>
             <NavBarFooter />
         </div>
