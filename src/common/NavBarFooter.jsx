@@ -15,6 +15,7 @@ const NavBarFooter = () => {
             </div>
             <div>
                 <p>GIT</p>
+                <p>👇🏽</p>
                 <a href="https://github.com/Jeffrey-Fazal/quiz-client-app">Front End</a> |
                 <a href="https://github.com/Jeffrey-Fazal/quizz-server-app">Back End</a>
             </div>

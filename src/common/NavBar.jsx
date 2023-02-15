@@ -7,7 +7,7 @@ const NavBar = () => {
             <h3>
                 <div className="logo">
                     <a href ="/">
-                        <img src ="logo.png">
+                        <img src ="/logo.png">
                         </img>
                     </a>
                 </div>
