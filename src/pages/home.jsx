@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import NavBar from "../common/NavBar";
 import NavBarFooter from "../common/NavBarFooter";
 import '../common/Water.css';
+import QuizzAPI from "../components/quiz_api";
 
 
 const Slideshow = ({ imgs }) => {
@@ -57,6 +58,8 @@ function Home ()  {
                     />
             </div>
             <div className="nav">
+            <h2>Random Quiz</h2>
+            <QuizzAPI />
             <NavBarFooter />
             </div>
         </div>
