@@ -40,6 +40,10 @@ const QuizzMaster = (props) => {
             <p>Correct Answers: {correctAnswers}</p>
             <p>Incorrect Answers: {incorrectAnswers}</p>
             <p>Final Score: {score}</p>
+            <button>
+              <a href="/">Bye</a>
+            </button>
+
           </div>
         ) : (
           <>
