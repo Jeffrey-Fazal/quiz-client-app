@@ -5,7 +5,8 @@ function Leaderboard() {
   const [scores, setScores] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/scores')
+    // localendpoint: axios.get('https://mighty-eyrie-05838.herokuapp.com:3000/scores')
+    axios.get('https://mighty-eyrie-05838.herokuapp.com:3000/scores')
       .then(response => {
         setScores(response.data);
       })

@@ -3,6 +3,7 @@ import NavBar from "../common/NavBar";
 import NavBarFooter from "../common/NavBarFooter";
 import '../common/Water.css';
 import QuizzAPI from "../components/quiz_api";
+import Leaderboard from "../components/leaderboard";
 
 
 const Slideshow = ({ imgs }) => {
@@ -61,6 +62,8 @@ function Home ()  {
             <div className="nav">
             <h2>Random Quiz</h2>
             <QuizzAPI />
+            <h2>Sign up and join the Leaderboard</h2>
+            <Leaderboard />
             <NavBarFooter />
             </div>
         </div>
