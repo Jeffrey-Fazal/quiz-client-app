@@ -32,7 +32,7 @@ const Slideshow = ({ imgs }) => {
 
     return ( 
         <div className="slideshow">
-            <img className="mainImg" src={imgs[index]} />
+            <img className="mainImg" src={imgs[index]} alt="slideshow" />
             <div className="actions">
                 <button onClick={prev}>👈🏽</button>
                 <button onClick={next}>👉🏽</button>
