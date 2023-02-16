@@ -10,7 +10,7 @@ The Quizz App is built using the following technology stack:
     Ruby on Rails API: The backend of the application is built using Ruby on Rails, a popular web application framework for building APIs.
     React: The frontend of the application is built using React, a popular JavaScript library for building user interfaces.
     JWT: The application uses JSON Web Tokens (JWT) for user authentication.
-    SCSS: The application uses SCSS for styling.
+    WAter.css: The application uses for styling.
 
 # Features
 
@@ -19,6 +19,9 @@ The Quizz App has the following features:
     Quizz: Users can take quizzes and see their scores.
     User authentication: Users can log in and sign up to access their quizz results.
     Responsive design: The application is designed to look good on different devices.
+
+# Design 
+![Image for Quiz Game](https://imgur.com/a/jUWbLAg)
 
 # Contributing
 
