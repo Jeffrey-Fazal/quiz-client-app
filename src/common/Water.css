@@ -64,9 +64,13 @@ body {
     padding-top: 5px;
     font-size: 3em; 
   }
+
 /* everything above this is from a 3 min tutorial ^^ */
 
-/*  fix the shit below */
+th {
+  
+}
+
 .slideshow {
   display: flex;
   justify-content: center;
@@ -105,7 +109,6 @@ body {
 .home .slideshow {
   margin-bottom: 30px;
 }
-/* works but change so that button is not in the middle slideshow photo */
 
 .logo img {
   width: 200px;
@@ -127,8 +130,8 @@ div {
 }
 
 table.center {
-  border: 1px solid black;
-  background-color: #F7B837;
+  border: 5px solid #FABC44;
+  /* background-color: #000000;/ */
 }
 
 .nav-link {

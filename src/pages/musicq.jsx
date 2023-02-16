@@ -9,6 +9,7 @@ const MusicQuiz = () => {
             <h1>Music Quiz</h1>
             <p>Did you know that 87.64% of the world listen to music? <br />
             Show us what you got!</p>
+            {/* <hr /> */}
             <QuizzMaster endpoint="music" />
             <NavBarFooter />
         </div>

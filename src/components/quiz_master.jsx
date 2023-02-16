@@ -41,7 +41,7 @@ const QuizzMaster = (props) => {
             <p>Incorrect Answers: {incorrectAnswers}</p>
             <p>Final Score: {score}</p>
             <button>
-              <a href="/">Bye</a>
+              <a href="/">Bye Felicia</a>
             </button>
 
           </div>
