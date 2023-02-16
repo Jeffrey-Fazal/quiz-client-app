@@ -22,6 +22,7 @@ The Quizz App has the following features:
 
 # Design 
 ![Figma Mockups]([https://imgur.com/a/jUWbLAg](https://i.imgur.com/C0XoL8V.png)
+![Imgur Image](http://i.imgur.com/zTONrOD.jpg)
 
 The design component was crtifical to making this project work.
 
