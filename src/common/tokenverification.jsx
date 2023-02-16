@@ -1,4 +1,8 @@
 // In Development, code from login for reference
+// TODO: This script should get the toekn from local storage and check if the user is valid and who they are
+// endpoitn will give us who they are, need to find a place to store it.
+
+
 // import React, { useState } from "react";
 // import axios from "axios";
 // import { useNavigate } from "react-router-dom";
@@ -11,7 +15,7 @@
 //   const handleSubmit = async (event) => {
 //     event.preventDefault();
 //     try {
-//       const response = await axios.post("http://localhost:3000/auth/login", {
+//       const response = await axios.post("https://mighty-eyrie-05838.herokuapp.com/verify", {
 //         email: username,
 //         password,
 //       });
