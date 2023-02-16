@@ -46,7 +46,7 @@ function Home ()  {
             <div className="logo">
                 <NavBar bar/>
             </div>
-            <div className="Home">
+            <div className="home">
                     <Slideshow 
                         imgs={[
                         'https://library.ucf.edu/wp-content/uploads/sites/5/2020/01/feb2020-blackhistorymonth-blog.jpg',
@@ -55,6 +55,7 @@ function Home ()  {
                         'https://images.booksense.com/images/194/679/9781913679194.jpg',
                         'https://oracle.newpaltz.edu/wp-content/uploads/2019/12/AOTD-2-678x381.png'
                         ]}
+
                     />
             </div>
             <div className="nav">

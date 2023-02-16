@@ -3,10 +3,11 @@
 * {
     box-sizing:border-box
   }
-  
-  /* body {
-    margin: 0;
-  } */
+/*   
+body {
+ border: #0077c0;
+ border-block: blue;
+}  */
   
   .active {
     border: 2px solid blue;
@@ -29,16 +30,17 @@
     transition: all 500ms;
   } */
   
-  /* .actions {
+  .actions {
     position: absolute;
     top: 50%;
     width: 100%;
     display: flex;
     justify-content: space-between;
-  } */
-/* the above commented out code if for normal css. it's commented out cause we're using water.css */
+  }
+/* the above commented out code cause we're using water.css */
+
   .actions button {
-    background: #0000003d;
+    background: #fc03033d;
     border: none;
     cursor: pointer;
     padding: 10px;
@@ -53,20 +55,61 @@
   }
   
   .actions button:active {
-    background: #000000a2;
+    background: #000000a2; 
     border: none;
     cursor: pointer;
     padding: 10px;
     margin: 5px;
     border-radius: 15px;
     padding-top: 5px;
+    font-size: 3em; 
   }
 /* everything above this is from a 3 min tutorial ^^ */
+
+/*  fix the shit below */
+.slideshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.slideshow .mainImg {
+  height: 100%;
+  width: auto;
+}
+
+/* .actions {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+ /* .actions button {
+  background-color: transparent;
+  border: none;
+  font-size: 3em;
+  margin: 0 10px;
+  cursor: pointer;
+}  */
+
+.actions button:hover {
+  color: #0077c0;
+}
+
+.home {
+  margin-top: 50px;
+  position: relative;
+}
+
+.home .slideshow {
+  margin-bottom: 30px;
+}
+/* works but change so that button is not in the middle slideshow photo */
 
 .logo img {
   width: 200px;
   height: auto;
-  /* float: left; */
 }
 
 div {
@@ -83,31 +126,32 @@ div {
   float: right; */
 }
 
-.center {
-  text-align: center;
-  background-color: aliceblue;
+table.center {
+  border: 1px solid black;
+  background-color: #F7B837;
 }
 
-/* .href {
-  display: inline-block;
-  padding: 0 10px;
-} */
-
-/* .middle {
-  text-align: center;
-} */
-/* tr {
-  text-align: center;
-} */
-
-a { 
+.nav-link {
+  margin-right: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease;
 }
 
-nav  {
-  background-color: #F6F8C2;
-  /* width: 33.33%; */
-  /* overflow: auto; */
+.nav-link:hover {
+  transform: scale(1.2);
+}
+
+.Slideshow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Slideshow img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  object-fit: cover;
 }
 
 input { 
@@ -125,5 +169,23 @@ button {
   cursor: pointer;
 }
 
+/* logo animations etc. */
 
+.logo1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
