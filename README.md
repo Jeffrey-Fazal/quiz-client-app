@@ -21,7 +21,7 @@ The Quizz App has the following features:
     Responsive design: The application is designed to look good on different devices.
 
 # Design 
-[Image for Quiz Game](https://imgur.com/a/jUWbLAg)
+![Image for Quiz Game](https://imgur.com/a/jUWbLAg)
 
 # Contributing
 
