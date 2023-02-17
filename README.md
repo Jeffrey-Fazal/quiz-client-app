@@ -2,7 +2,7 @@
 
 The client is to be used with the [Ruby on Rails Backend](https://github.com/Jeffrey-Fazal/quizz-server-app)
 
-A demo version is available at: [https://main--hilarious-druid-dcf387.netlify.app/](https://quizga.com/)
+A demo version is available at: [https://quizga.com/](https://main--hilarious-druid-dcf387.netlify.app/)
 
 Welcome to the Quizz App! This is a full-stack web application that allows users to take quizzes and see their scores.
 Technology Stack
